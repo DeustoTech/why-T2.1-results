@@ -1,12 +1,12 @@
 # Set of features
-feature_set_list <- c(
+
 1  "Seasonal aggregates",
 2  "Peaks and off-peaks",
 3  "Strengths and ACs",
 4  "Catch-22"
-)
+
 # Datasets
-dataset_list <- c(
+
 1  "Goiener & Megara (households)",
 2  "Low Carbon London",
 3  "ISSDA",
@@ -14,9 +14,9 @@ dataset_list <- c(
 5  "Portugal (UCI)",
 6  "NEEA (US)",
 7  "All datasets"
-)
+
 # Clustering
-clust_methods_list <- c(
+
 1  "Hierarchical",
 2  "*k*-means",
 3  "DIANA",
@@ -26,16 +26,13 @@ clust_methods_list <- c(
 7  "SOTA",
 8  "CLARA",
 9  "Model-based"
-)
+
 # Validation
-internal_val_list <- c(
+
 1  "Connectivity (min)",
 2  "Dunn index (max)",
 3  "Silhouette (max)"
-)
-stability_val_list <- c(
-1  "APN (min)",
-2  "AD (min)",
-3  "ADM (min)",
-4  "FOM (min)"
-)
+4  "APN (min)",
+5  "AD (min)",
+6  "ADM (min)",
+7  "FOM (min)"
